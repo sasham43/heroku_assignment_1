@@ -1,3 +1,27 @@
 body{
   font-family: sans-serif;
 }
+
+h1{
+  text-align: center;
+}
+
+.inputContainer{
+  margin: 0 auto;
+}
+
+input:nth-child(1){
+  margin-left: 30%;
+}
+
+.weather{
+  display: inline-block;
+}
+
+.weatherContainer{
+  margin: 0 auto;
+}
+
+#city{
+  margin-left: 40%;
+}
