@@ -2,7 +2,7 @@ $(function(){
   console.log("jquery loaded");
 
   var apiKey = '945023da3da01614';
-  var urlBase = 'http://api.wunderground.com/api/';
+  var urlBase = 'https://api.wunderground.com/api/';
   var urlAdditions = '/geolookup/conditions/q/IA/Cedar_Rapids.json'
   var fullUrl = urlBase + apiKey + urlAdditions;
 
