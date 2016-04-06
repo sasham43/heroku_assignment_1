@@ -5,9 +5,9 @@ var today = new Date();
 var todayDate = today.getDate();
 var todayString = 'Today is the ' + todayDate + 'th.';
 
-app.get('/', function(req, res){
-  res.send(todayString);
-});
+// app.get('/', function(req, res){
+//   res.send(todayString);
+// });
 
 app.use(express.static('public'));
 
