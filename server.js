@@ -9,6 +9,11 @@ var todayString = 'Today is the ' + todayDate + 'th.';
 //   res.send(todayString);
 // });
 
+app.post('/weather', function(req, res){
+  var newCity = req.body.city;
+  var newState = req.body.state;
+})
+
 app.use(express.static('public'));
 
 var server = app.listen(process.env.PORT || 3000, function(){
