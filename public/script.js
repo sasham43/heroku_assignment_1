@@ -35,7 +35,7 @@ $(function(){
       $("#state").html(state);
       $("#temp").html(temp);
       $("#icon").html(iconElement);
-      $("#message").html("Message: Baltimore had thirteen homicides last night");
+      $(".message").html("Message: Baltimore had thirteen homicides last night");
 
 
 
