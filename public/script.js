@@ -35,9 +35,6 @@ $(function(){
       $("#state").html(state);
       $("#temp").html(temp);
       $("#icon").html(iconElement);
-      if(city == 'Baltimore'){
-        $(".message").html("Message: Baltimore had thirteen homicides last night");
-      }
 
 
 
